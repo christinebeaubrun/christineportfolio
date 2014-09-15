@@ -1,0 +1,24 @@
+{
+  "name": "Christine",
+  "version": "0.0.1",
+  "description": "Christine's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon --ignore '*.html' index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christinebeaubrun/christineportfolio.git"
+  },
+  "author": "Christine Beaubrun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christinebeaubrun/christineportfolio/issues"
+  },
+  "homepage": "https://github.com/christinebeaubrun/christineportfolio",
+  "dependencies": {
+    "express": "^4.9.0",
+    "jade": "^1.6.0"
+  }
+}
